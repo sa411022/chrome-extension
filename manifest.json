@@ -15,10 +15,6 @@
     "matches": ["https://twpkinfo.com/*"],
     "js": ["twpkinfo.js"],
     "run_at": "document_idle"
-  }, {
-    "matches": ["https://twpkinfo.com/ipoke.aspx"],
-    "js": ["ipoke.js"],
-    "run_at": "document_idle"
   }],
   "web_accessible_resources": [{
       "resources": ["cwa.png"],
@@ -27,7 +23,7 @@
       "resources": ["ptt.png"],
       "matches": ["https://term.ptt.cc/*"]
   }, {
-      "resources": ["twpkinfo.png", "ipoke.png"],
+      "resources": ["twpkinfo.png"],
       "matches": ["https://twpkinfo.com/*"]
   }]
 }
