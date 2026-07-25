@@ -27,10 +27,7 @@
       "resources": ["ptt.png"],
       "matches": ["https://term.ptt.cc/*"]
   }, {
-      "resources": ["twpkinfo.png"],
+      "resources": ["twpkinfo.png", "ipoke.png"],
       "matches": ["https://twpkinfo.com/*"]
-  }, {
-      "resources": ["ipoke.png"],
-      "matches": ["https://twpkinfo.com/ipoke.aspx"]
   }]
 }
