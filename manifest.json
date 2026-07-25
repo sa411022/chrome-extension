@@ -15,6 +15,10 @@
     "matches": ["https://twpkinfo.com/*"],
     "js": ["twpkinfo.js"],
     "run_at": "document_idle"
+  }, {
+    "matches": ["https://twpkinfo.com/ipoke.aspx"],
+    "js": ["ipoke.js"],
+    "run_at": "document_idle"
   }],
   "web_accessible_resources": [{
       "resources": ["cwa.png"],
@@ -25,5 +29,8 @@
   }, {
       "resources": ["twpkinfo.png"],
       "matches": ["https://twpkinfo.com/*"]
+  }, {
+      "resources": ["ipoke.png"],
+      "matches": ["https://twpkinfo.com/ipoke.aspx"]
   }]
 }
