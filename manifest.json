@@ -23,7 +23,7 @@
       "resources": ["ptt.png"],
       "matches": ["https://term.ptt.cc/*"]
   }, {
-      "resources": ["twpkinfo.png"],
+      "resources": ["twpkinfo.webp"],
       "matches": ["https://twpkinfo.com/*"]
   }]
 }
