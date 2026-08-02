@@ -8,9 +8,13 @@
     "js": ["cwa.js"],
     "run_at": "document_idle"
   }, {
+    "matches": ["https://hamivideo.hinet.net/*"],
+    "js": ["hamivideo.js"],
+    "run_at": "document_idle"
+  }, {
     "matches": ["https://term.ptt.cc/*"],
     "js": ["ptt.js"],
-    "run_at": "document_end"
+    "run_at": "document_idle"
   }, {
     "matches": ["https://twpkinfo.com/*"],
     "js": ["twpkinfo.js"],
@@ -19,6 +23,9 @@
   "web_accessible_resources": [{
       "resources": ["cwa.png"],
       "matches": ["https://www.cwa.gov.tw/*"]
+  }, {
+      "resources": ["hamivideo.webp"],
+      "matches": ["https://hamivideo.hinet.net/*"]
   }, {
       "resources": ["ptt.png"],
       "matches": ["https://term.ptt.cc/*"]
